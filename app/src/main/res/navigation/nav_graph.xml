@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/profileListFragment">
+
+    <fragment
+        android:id="@+id/profileListFragment"
+        android:name="com.niyas.profilemanager.view.ProfileListFragment"
+        tools:layout="@layout/fragment_profile_list"
+        android:label="Profiles" >
+        <action
+            android:id="@+id/action_profileListFragment_to_profileDetailFragment"
+            app:destination="@id/profileDetailFragment" />
+        <argument
+            android:name="profile"
+            app:argType="com.niyas.profilemanager.roomdb.Profile" />
+        <action
+            android:id="@+id/action_profileListFragment_to_gestureFragment"
+            app:destination="@id/gestureFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileDetailFragment"
+        android:name="com.niyas.profilemanager.view.ProfileDetailFragment"
+        tools:layout="@layout/fragment_profile_detail"
+        android:label="Profile Details" >
+
+        <argument
+            android:name="profile"
+            app:argType="com.niyas.profilemanager.roomdb.Profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gestureFragment"
+        android:name="com.niyas.profilemanager.view.GestureFragment"
+        tools:layout="@layout/fragment_gesture"
+        android:label="Gesture Screen" >
+
+    </fragment>
+
+</navigation>
