@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">ProfileManager</string>
-    <string name="tick">Yes</string>
-    <string name="cross">No</string>
     <string name="profile_image">profile</string>
     <string name="profile_john_doe">30 yrs, 5 ft 2 in, Tamil Nair, Software Engineer, Chennai, Tamil Nadu, India</string>
     <string name="profile_jane_smith">27 yrs, 5 ft 2 in, Tamil Nair, Graphic Designer, Chennai, Tamil Nadu, India</string>
@@ -16,9 +14,9 @@
     <string name="my_matches">My Matches</string>
     <string name="profiles_pending_with_me">8 Profiles pending with me</string>
     <string name="new_profile">5 New</string>
-    <string name="no_data_found_click_to_get_data">No Data Found - Click to Get Data</string>
+    <string name="no_data_found_click_to_get_data">No Data Found - Click Here To Get Data</string>
     <string name="shortlist">ShortList</string>
-    <string name="like_her">Like her?</string>
+    <string name="like_him">Like Him?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
 

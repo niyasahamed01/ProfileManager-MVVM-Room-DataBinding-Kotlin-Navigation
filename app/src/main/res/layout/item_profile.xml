@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/profileImage"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_300sdp"
@@ -74,7 +74,7 @@
                     app:layout_constraintTop_toBottomOf="@id/profileName" />
 
 
-                <LinearLayout
+                <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -85,7 +85,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/profileDescription">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/yesButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
                         android:text="@string/yes"
                         android:textColor="@android:color/white" />
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/noButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
                         android:text="@string/no"
                         android:textColor="@android:color/black" />
 
-                </LinearLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
