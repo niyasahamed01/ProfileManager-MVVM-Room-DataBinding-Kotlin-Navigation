@@ -38,7 +38,7 @@ android {
     }
 
     dataBinding {
-        enable=true
+        enable = true
     }
 }
 
