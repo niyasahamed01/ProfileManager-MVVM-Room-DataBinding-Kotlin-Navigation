@@ -6,7 +6,7 @@ Landing screen should be Home Screen.
 5 static profile details (Get from sqllite) with swiping functionality (Left to Right & Right to Left) like given design.
 Overflow icon[3 dots] will have a link to redirect the screen to "Gesture Screen"
 Yes and No button click will remove the particular profile from the stack with toast message.
-Photo & Description click will redirect the screen to "Profile details"
+Photo & Description click will redirect the screen to "Profile detail".
 
 ![profilelist](https://github.com/user-attachments/assets/f6c3cf99-750b-41dc-92d6-7ec8be73e463)
 
