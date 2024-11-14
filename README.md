@@ -8,7 +8,7 @@ Overflow icon[3 dots] will have a link to redirect the screen to "Gesture Screen
 Yes and No button click will remove the particular profile from the stack with toast message.
 Photo & Description click will redirect the screen to "Profile details"
 
-![profilelist](https://github.com/user-attachments/assets/d17f0465-d62a-49f4-b7c4-052b90965f31)
+![profilelist](https://github.com/user-attachments/assets/acfbd52f-7844-45c1-9d96-ce822103f73b)
 
 **2) Gesture Screen**
 
@@ -16,7 +16,7 @@ Photo & Description click will redirect the screen to "Profile details"
 Tick and Cross icon click will remove the particular profile from the stack with toast message.
 Back will land to Home Screen.
 
-![profilerecommend](https://github.com/user-attachments/assets/b8286a3b-8299-4e0e-ab6f-9fa694378217)
+![gesture](https://github.com/user-attachments/assets/7e5e9b1e-ed0a-4617-8409-09b6ef228101)
 
 **3) Profile details**
 
@@ -24,4 +24,4 @@ It will be a single page with few details like given design.
 Photos will like a Carousel flow and will be moving to next photo while swiping.
 Back will land to respective Screen.
 
-![profiledetail](https://github.com/user-attachments/assets/5d83f96f-8972-4a75-8261-3c9855c59253)
+![profiledetail](https://github.com/user-attachments/assets/4f42ef25-cf66-4a32-a164-68c4416aa114)
